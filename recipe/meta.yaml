@@ -1,18 +1,18 @@
 {% set name = "hilbertcurve" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: cb041f40f1b26843ef093d104954c55cf0dba5b6e976371a510432c193ee951d
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: aefc00859c9cdefee1e53b722c33b2091afa18a608a7eedc7ee2acdbf62feb36
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -26,11 +26,11 @@ test:
     - hilbertcurve
 
 about:
-  home: "https://github.com/galtay/hilbertcurve"
+  home: https://github.com/galtay/hilbertcurve
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Construct Hilbert Curves."
+  summary: Construct Hilbert Curves.
 
 extra:
   recipe-maintainers:
