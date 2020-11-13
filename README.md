@@ -5,11 +5,9 @@ Home: https://github.com/galtay/hilbertcurve
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hilbertcurve-feedstock/blob/master/LICENSE.txt)
 
 Summary: Construct Hilbert Curves.
-
-
 
 Current build status
 ====================
@@ -17,7 +15,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8616&branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hilbertcurve-feedstock?branchName=master">
       </a>
     </td>
