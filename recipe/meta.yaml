@@ -1,5 +1,5 @@
 {% set name = "hilbertcurve" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bad48bf289901e01e4c4ce5df1ef670f0c4d5076d38784c0d24be631b6cbcdcd
+  sha256: 6a7703d9a2f1fe748c86d86908bf183e7d139b973645e4b2526e10b34e75796d
 
 build:
   number: 0
